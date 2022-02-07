@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Quintessential', cursive;
-    background-color: #ffd700;
 }
 header {
     width: 100%;
@@ -66,6 +65,9 @@ form {
     transform: scale(1.1);
 }
 .biograph {
+    display: flex;
+}
+.about {
     width: 50%;
     position:relative;
     left: 1.5em;
@@ -77,3 +79,44 @@ h2 {
 p {
     text-align: justify;
 }
+.vvg-bio {
+    width: 25%;
+    height: 14em;
+    position: relative;
+    left: 12em;
+    top: 1em;
+}
+.text-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text {
+    /* margin: 2em; */
+    background-color: blue;
+    width: 30em;
+    height: 13em;
+    color: #ffffff;
+    position: relative;
+    top: 2em;
+    left: 9em;
+}
+h3 {
+    padding-top: 0.5em;
+    text-align: center;
+}
+.text p {
+    margin-top: 1em;
+    margin-left: 3.2em;
+    text-align: justify;
+    width: 23em;
+}
+/* footer {
+    background-color: blue;
+    width: 100%;
+    color: #ffffff;
+} */
+/* @media (max-width: 1110px) {
+    header {
+        height: 7vh;
+    } */
