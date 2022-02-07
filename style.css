@@ -101,7 +101,7 @@ p {
     top: 2em;
     left: 9em;
 }
-h3 {
+.text-img h3 {
     padding-top: 0.5em;
     text-align: center;
 }
@@ -110,6 +110,21 @@ h3 {
     margin-left: 3.2em;
     text-align: justify;
     width: 23em;
+}
+.text-curiosities {
+    margin: 2em;
+    width: 50%;
+}
+.text-curiosities h3 {
+    text-align: center;
+}
+.text-curiosities p {
+    text-align: end;
+}
+.paintings-2 {
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
 }
 /* footer {
     background-color: blue;
